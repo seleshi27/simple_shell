@@ -15,6 +15,7 @@ int _strlen(char *s)
 
 	while (*s++)
 		i++;
+
 	return (i);
 }
 
@@ -52,6 +53,7 @@ char *starts_with(const char *haystack, const char *needle)
 	while (*needle)
 		if (*needle++ != *haystack++)
 			return (NULL);
+
 	return ((char *)haystack);
 }
 
@@ -66,10 +68,14 @@ char *_strcat(char *dest, char *src)
 {
 	char *ret = dest;
 
+
 	while (*dest)
 		dest++;
+
 	while (*src)
 		*dest++ = *src++;
+
 	*dest = *src;
+
 	return (ret);
 }
