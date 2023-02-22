@@ -105,7 +105,7 @@ list_t *node_starts_with(list_t *node, char *prefix, char c)
  * @head: pointer to list head
  * @node: pointer to the node
  *
- * Return: index of node or -1
+ * Return: index of node for succes, else -1
  */
 ssize_t get_node_index(list_t *head, list_t *node)
 {
