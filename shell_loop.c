@@ -156,4 +156,4 @@ void fork_cmd(info_t *info)
 			if (info->status == 126)
 				print_error(info, "Permission denied\n");
 		}
-	}
+}
