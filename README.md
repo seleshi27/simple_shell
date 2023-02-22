@@ -1,4 +1,4 @@
-Project to be done in teams of 2 people (your team: Seleshi Geberesellassie, QUDUS AMIDU)
+Project to be done in teams of 2 people (your team: Seleshi Geberesellassie, QUDUS AMIDU). Project involves shell user-defined interfae.
 0x16. C - Simple Shell
 List of allowed functions and system calls
 access (man 2 access)
