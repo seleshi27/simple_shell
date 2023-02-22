@@ -35,13 +35,17 @@ char *_strdup(const char *str)
 
 	if (str == NULL)
 		return (NULL);
+
 	while (*str++)
 		length++;
+
 	ret = malloc(sizeof(char) * (length + 1));
 	if (!ret)
 		return (NULL);
+
 	for (length++; length--;)
 		ret[length] = *--str;
+
 	return (ret);
 }
 
@@ -57,6 +61,7 @@ void _puts(char *str)
 
 	if (!str)
 		return;
+
 	while (str[i] != '\0')
 	{
 		_putchar(str[i]);
@@ -83,5 +88,6 @@ int _putchar(char c)
 	}
 	if (c != BUF_FLUSH)
 		buf[i++] = c;
+
 	return (1);
 }
